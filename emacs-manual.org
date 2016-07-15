@@ -60,6 +60,7 @@
         C-y          召回
         M-y          召回再上一次
 
+        C-@ C-x r t  edit-multiple-lines-at-once
 
 * 撤销（UNDO）, Redo
 --------------
@@ -104,6 +105,7 @@
                  <DEL> 会“撤回”到最近一次搜索的命中位置。如果之前没
                  有一个命中， <DEL> 会抹去搜索字符串中的最后一个字符
                  C-g 来终止搜索
+        C-s C-w  search at point
         C-r      向后搜索
 
 
