@@ -1,0 +1,29 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "workbench.colorTheme": "Default Light+",
+    "explorer.autoReveal": true,
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home",
+    "maven.terminal.useJavaHome": true,
+    "window.zoomLevel": 0,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/target": true,
+        "**/.svn": true
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.settings": true,
+        "**/target": true,
+        "**/.classpath": true,
+        "**/.project": true,
+    },
+    "explorer.decorations.colors": false,
+}
