@@ -1,2 +1,1 @@
-# emacs
-emacs manual
+# Documents
