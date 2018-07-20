@@ -22,5 +22,5 @@
     "explorer.decorations.colors": false,
     "java.configuration.updateBuildConfiguration": "automatic",
     "explorer.openEditors.visible": 5,
-    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.enabled": false
 }
