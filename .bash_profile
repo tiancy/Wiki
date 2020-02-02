@@ -4,7 +4,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 alias mysql-start='sudo /usr/local/mysql/support-files/mysql.server start'
 alias mysql-stop='sudo /usr/local/mysql/support-files/mysql.server stop'
 
-#export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home)
 #export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
 
 export PATH=$PATH:/usr/local/apache-maven-3.5.3/bin
