@@ -1,6 +1,5 @@
 {
-    "workbench.colorTheme": "Default Light+",
-    "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home",
+    // "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home",
     "maven.terminal.useJavaHome": true,
     "search.exclude": {
         "**/node_modules": true,
@@ -9,6 +8,7 @@
         "**/.svn": true
     },
     "files.exclude": {
+        "**/.vscode": true,
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
@@ -17,10 +17,23 @@
         "**/.settings": true,
         "**/target": true,
         "**/.classpath": true,
+        "**/*.class": true,
         "**/.project": true,
+        "**/.factorypath": true
     },
-    "explorer.decorations.colors": false,
+    // "explorer.decorations.colors": false,
     "java.configuration.updateBuildConfiguration": "automatic",
-    "explorer.openEditors.visible": 5,
-    "gitlens.codeLens.enabled": false
+    // "explorer.openEditors.visible": 5,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.colorTheme": "Default Light+",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // "java.errors.incompleteClasspath.severity": "ignore",
+    "[java]": {},
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.rendererType": "dom",
+    // "maven.executable.path": "/usr/local/apache-maven-3.6.2/bin/mvn",
 }
