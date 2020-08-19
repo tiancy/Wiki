@@ -4,19 +4,27 @@ To run a different version of Java, either specify the full path, or use the jav
 
 % /usr/libexec/java_home -v 1.8.0_06 --exec javac -version
 
-## Java string convert to json
+## Java json
 
 ```Java
 ObjectMapper om = new ObjectMapper();
 try {
+  // string convert to json
   JsonNode node = om.readTree("{\"name\":\"value\"}");
   JsonNode snode = node.get("name");
+  ((ObjectNode)node).put("name1", "value1");
   if (snode != null) {
     String name = snode.asText();
   }
-  
-  // add
-  ((ObjectNode)node).put("name1", "value1");
+
+  // create json object
+  ArrayNode nodes = om.createArrayNode();
+  ObjectNode data = om.createObjectNode();
+  data.put("name", "tom");
+  data.put("names", "[{\"name\":\"value\"}]");
+  nodes.add(data);
+  Iterator<JsonNode> it = nodes.iterator();
+  Iterator<JsonNode> names = data.get("names").iterator();
 } catch (Exception e) {
 }
 ```
