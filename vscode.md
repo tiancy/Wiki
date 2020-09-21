@@ -1,3 +1,15 @@
+## Keyboard Shortcuts
+```
+{
+  "key": "ctrl+alt+left",
+  "command": "workbench.action.moveEditorToPreviousGroup"
+}
+{
+  "key": "ctrl+shift+backspace",
+  "command": "workbench.action.navigateToLastEditLocation"
+}
+```
+
 ## vscode vim
 
 Mac Setup
