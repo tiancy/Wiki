@@ -33,6 +33,14 @@ MacOS : $HOME/Library/Application Support/Code[ - Variant]/User/workspaceStorage
 Build failed, do you want to continue?
 Problem solved I resolved this issue by clearing the workspace cache in VS code.
 
+## [VSCode Clean the workspace directory](https://github.com/redhat-developer/vscode-java/wiki/Troubleshooting#clean-the-workspace-directory)
+
+You can clean the workspace directory in the following way:
+
+    Open the command palette (F1)
+    select Java: Clean the Java language server workspace
+    click Restart and delete
+
 ## vscode snippets
 
 Preferences -> User snippets
