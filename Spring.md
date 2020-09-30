@@ -136,8 +136,8 @@ https://stackoverflow.com/questions/26147044/spring-cron-expression-for-every-da
 
 ```
 server:
- compression:
-        enabled: true
-        mime-types: application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain // 对什么样的数据进行压缩
-        min-response-size: 1024 // 超过多大的数据进行压缩 1kb
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,application/xhtml+xml,text/html,text/xml,text/plain // 对什么样的数据进行压缩
+    min-response-size: 1024 // 超过多大的数据进行压缩 1kb
 ```
