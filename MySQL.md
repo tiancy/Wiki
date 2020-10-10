@@ -135,3 +135,10 @@ WHERE
 ```
 
 Refer to https://www.toutiao.com/a6648823317069300228/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1548288913&app=news_article&utm_source=mobile_qq&iid=58523200744&utm_medium=toutiao_ios&group_id=6648823317069300228
+
+## COUNT DISTINCT
+
+```SQL
+SELECT COUNT ( DISTINCT name )
+FROM emp;
+```
